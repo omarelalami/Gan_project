@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  stylegan3:
+    build: .
+    ports:
+      - "7862:7862"
+    environment:
+      - PORT=7862
+      - NETWORK=/models/network-snapshot.pkl
+      - ENABLE_GFPGAN=1          # mets 0 pour désactiver
+      - GFPGAN_MODEL=/models/GFPGANv1.4.pth
+    volumes:
+      - ./models:/models:ro
+    # GPU NVIDIA (Compose v2+)
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: ["gpu"]
+    # Pour Compose non-Swarm, on peut aussi utiliser:
+    # gpus: all
