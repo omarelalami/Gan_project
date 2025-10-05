@@ -35,3 +35,16 @@ stylegan3-app/
 └─ models/
    ├─ network-snapshot.pkl        # ← votre checkpoint (obligatoire)
    └─ GFPGANv1.4.pth              # ← optionnel pour restauration visage
+
+
+## 🚀 Lancement rapide
+
+### Avec **docker-compose** (recommandé)
+
+```bash
+# 1) Construire l’image
+docker compose build
+
+# 2) Lancer le conteneur
+docker compose up
+
