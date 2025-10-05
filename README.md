@@ -1,6 +1,7 @@
 # StyleGAN3 — Déploiement Docker (GPU)
 <img width="958" height="427" alt="Capture d’écran 2025-10-05 124010" src="https://github.com/user-attachments/assets/186019d4-263e-481f-817f-84685bafc5b2" />
 <img width="242" height="364" alt="5" src="https://github.com/user-attachments/assets/d1dd8562-ffb2-45e9-87a1-777d683e81fd" />
+<img width="960" height="411" alt="Capture d’écran 2025-10-05 130423" src="https://github.com/user-attachments/assets/3a75856c-ef2f-4a45-b70b-f2c998158eae" />
 
 
 
