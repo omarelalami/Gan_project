@@ -33,8 +33,8 @@ stylegan3-app/
 ├─ Dockerfile
 ├─ docker-compose.yml
 └─ models/
-   ├─ network-snapshot.pkl        # ← votre checkpoint (obligatoire)
-   └─ GFPGANv1.4.pth              # ← optionnel pour restauration visage
+   ├─ network-snapshot.pkl        
+   └─ GFPGANv1.4.pth             
 
 
 ## 🚀 Lancement rapide
